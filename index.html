@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML All Tags</title>
+    <link rel="icon" type="image/png" href="./images/tag.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   <style>
+
+        body{
+            background-image: url('/images/background.jpg');
+            background-repeat: no-repeat;
+             background-size:100%; 
+            background-attachment:fixed;
+            
+        
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <i class="fab fa-whatsapp"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-pinterest"></i>
+    </header>
+    <p id="top" style="text-align: center ;">You will be redirected here if you click on the bookmark which is available at the bottom of the page  </p>
+    <hr>
+
+    <h1 style="border:1px solid red ;background-color:gold"><marquee >Stuff you can do with plain text </marquee></h1>
+
+    <hr>
+    <h1>This is font size for H1 heading</h1>
+    <hr>
+    <h2>This is font size for H2 heading </h2>
+    <hr>
+    <h3>This is font size for H3 heading</h3>
+    <hr>
+    <h4>This is font size for H4 heading</h4>
+    <hr>
+    <h5>This is font size for H5 heading</h5>
+    <hr>
+    <h6>This is font size for H6 heading</h6>
+    <hr>
+     
+    <p style="border:1px solid red">This will start in a new line and will occupy the whole space</p>
+    <br>
+    <div style="border:1px solid red"> This will again do the same</div>
+    <br>
+    <span style="border:1px solid black">This will use only as much space as needed</span>
+    <span style="border:1px solid green">This will again start in same line</span>
+    <hr>
+    <b>This tag will make text bold</b>
+    <hr>
+    <em>This tag will emphasise the text</em>
+    <hr>
+    <strong>This tag will make the text strong</strong>
+    <hr>
+    <q>This tag will put text in quotations</q>
+    <hr>
+    <blockquote style="border: 1px solid red">This tag will display text with indentation</blockquote>
+    <hr>
+    <i>This tag will italicise the text</i>
+    <hr>
+    <del>This tag will put a line on the text</del>
+    <hr>
+    <ins>This tag will underline this text</ins>
+    <hr>
+    <mark>This tag will higlight the text</mark>
+    <hr>
+    <u>This will underline the text</u>
+    <hr>
+    <p>(a+b)<sup>2</sup></p>
+    <hr>
+    <p>H<sub>2</sub>O</p>
+    <hr>
+    <pre>
+        This will display the 
+        text the way it is written in text 
+        editor. Otherwise the browser will
+        neglect any number of line breaks 
+        introduced in the text editor and 
+        will put everything in the same line until 
+        it runs out of space or encounters a 
+        break tag
+       
+    </pre>
+    <hr>
+
+    <h1 id="backtoimage" style="border:1px solid Red; background-color: aquamarine;"><marquee>Now some Images</marquee></h1>
+
+    <p><img src="./images/favorite.jpg" alt="local pic" title="The one from hard disk" width="200px" height="200px"/><br>This is Relative Link</p>
+    <hr>
+    <p><img src="https://th.bing.com/th/id/OIP.jPKXqxqBG5aGJYEENG2BlgHaHc?w=167&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" /><br>This is Absolute Link</p>
+    <hr>
+
+    <figure>
+        <img src=".\images\favorite.jpg" alt="figure tag image" width="20%" height="20%"/>
+        <figcaption>This image is using Figure Tag</figcaption>
+    </figure>
+    <hr>
+
+    <picture>
+        <source srcset=".\images\goose.jpg" media="(min-width:800px)"/>
+        <source srcset="images/owl.jpg" media="(max-width:600px)"/>
+        <img src="images/ocean.jpg" alt="fallback"/><br><p>This is using picture tag</p>
+    </picture>
+    <hr>
+
+    <p><img src="../Upfolder/folderup.jpg"><br>This is from a folder one step up</p>
+
+
+<h1 style="border:1px solid black; background-color: beige;"><marquee>Now some Links</marquee></h1>
+<hr>
+<div>
+    <a href="http://www.google.com">This is Absolute URL and will take you to google website</a></div>
+<hr>
+<div>
+    <a href="relative.html">This is Relative Link and will take you to internal Page </a></div>
+<hr>
+<div>
+    <figure>
+    <a href="relative.html"><img src="images/goose.jpg"></a>
+    <figcaption>This is a relative link with relative image. Click on image and experience it </figcaption>
+<hr>
+</div>
+
+<div>
+    <figure>
+    <a href="http://www.google.com"><img src="https://th.bing.com/th/id/OIP.grvQ4-eJ54Hmn3EJP4vQagHaD4?w=275&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a>
+    <figcaption>This is an Absolute link with absolute image. Click on image and experience it </figcaption>
+<hr>
+</div>
+
+<a href="#backtoimage"> This Particular link is a bookmark and will take you back to Image Section</a>
+<hr>
+<p style="text-align: center;"><a href="#top">Click here to go to the top of the page</a></p>
+<hr>
+
+
+<div style="border: 2px solid red;">
+<marquee style="border:1px solid red;background-color: #3b3;">Now lets understand target attribute</marquee>
+<a href="http://www.google.com" target="_blank">This will open link in a new window tab</a>
+<br>
+<a href="http://www.google.com" target="_self">This will open link in same window</a>
+
+</div>
+<hr>
+<figure>
+    <video src="/videos/sample.mp4" controls  width="320" height="240"></video>
+    <figcaption>Rejuvenate Yourself with one of my favourite naat</figcaption>
+</figure>
+<hr>
+<!-- <video src="/videos/owaisFirstVideo.mp4" controls  poster="/images/ocean.jpg" width="320" height="240"></video> -->
+<hr>
+<iframe src="https://www.youtube.com/watch?v=hRSelrnmmiE&loop=1" controls></iframe>
+<hr><hr>
+<!-- <iframe src="/videos/owaisFirstVideo.mp4" controls width="420" height="315"></iframe> -->
+
+<hr>
+<embed src="https://www.dailymotion.com/video/x8c0z8e"></embed>
+
+<a href="https://www.youtube.com/watch?v=FAsIBoCTix8">This should work atleast</a>
+<hr>
+
+<h1><marquee style="border:1px solid red;background-color: #3b3;">Now it is turn of Lists</marquee></h1>
+
+<ul style="list-style-type:circle ;">
+    <li>Kalma</li>
+    <li>Namaz</li>
+    <li>Roza</li>
+    <li>Zakat</li>
+    <li>Hajj</li>
+</ul>
+<hr>
+<ol type="A"  >
+    <li>Fajr</li>
+    <li>Zohr</li>
+    <li>Asr</li>
+    <li>Magrib</li>
+    <li>Isha</li>
+</ol>
+
+<hr>
+
+<h1 style="border:1px solid red;background-color:green"><marquee>Now it is turn of the boring topic <q>table</q></marquee></h1>
+
+<table>
+    <caption>Students Marks Table</caption>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Marks out of 500</th>
+    </tr>
+    <tr>
+        <td> Fazl </td>
+        <td> Ur Rahman</td>
+        <td>480</td>
+    </tr>
+    <tr>
+        <td> Zia </td>
+        <td> Ur Rahman</td>
+        <td>470</td>
+    </tr>
+    <tr>
+        <td> Nawal </td>
+        <td> Ur Rahman</td>
+        <td>460</td>
+    </tr>
+    <tr>
+        <td> Rabah</td>
+        <td> Ur Rahman</td>
+        <td>450</td>
+    </tr>
+    <tr>
+        <td> Musfirah </td>
+        <td> Amtur Rahman</td>
+        <td>440</td>
+    </tr>
+    <tr>
+        
+        <td colspan="2">Average</td>
+        <td>465</td>
+    </tr>
+
+
+</table>
+<hr>
+<div>
+<h1 style="text-align: center;"><bdo dir="rtl">noidroccA</bdo></h1>
+<details>
+    <summary>Q1. Will Learning MERN makes me a Full-Stack Developer?</summary>
+    Ans: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quia, sequi, voluptatibus eveniet eaque consequuntur fuga optio quis animi minus laudantium nostrum, a harum delectus qui iure dolore ullam provident magnam quidem tempora dolorum necessitatibus expedita autem! Maxime facere nulla eos. Voluptatum nisi aut explicabo magnam incidunt repellendus laboriosam in.
+</details>
+
+<details>
+    <summary>Q2. Is it really worth spending this much time on Front End?</summary>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias iste, culpa iusto officiis fugiat earum modi, nostrum qui quia explicabo ex, sed debitis esse? Aut hic quo repellendus nostrum, placeat pariatur vero maiores, ratione quasi veniam distinctio alias repudiandae. Minima?
+</details>
+
+<details>
+    <summary>Q3. Back end vs Front end Developer?</summary>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate architecto labore reiciendis exercitationem repudiandae, officiis ex, quos reprehenderit illum ipsum repellendus ullam dolor accusamus asperiores dicta fugit? Voluptates, beatae quisquam?
+</details>
+</div>
+<hr>
+
+<progress value="2" max="10"></progress>
+
+
+<hr>
+<footer style="padding:2px; border:1px solid black; background-color: #aaa;">
+    <p>&copy; Afzal Ur Rahman</p>
+
+    <p style="text-align:center;"><a href="mailto:afzalcse@gmail.com">Email Us</a></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385395.55901523435!2d28.731983030111035!3d41.00550051787535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2s%C4%B0stanbul%2C%20Turkey!5e0!3m2!1sen!2sin!4v1660388370279!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</footer>
+<script>
+    let x=15*5;
+     debugger;
+    document.getElementById("top").innerHTML=x;
+
+</script>
+</body>
+</html>

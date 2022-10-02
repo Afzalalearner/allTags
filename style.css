@@ -1,0 +1,16 @@
+table,th,td{
+    border:1px solid red;
+    border-collapse:collapse;
+    border-spacing:5px;
+    vertical-align: middle;
+    caption-side: bottom;
+}
+
+tr:hover{
+    background-color: goldenrod;
+}
+
+tr:nth-child(odd){
+    background-color: greenyellow;
+    color:white;
+}
